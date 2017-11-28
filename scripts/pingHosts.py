@@ -5,7 +5,7 @@ import subprocess
 def pingOk(sHost):
     try:
         print('pinging', sHost)
-        output = subprocess.check_output("ping -{} 1 {}".format( 'n', sHost), shell=True)
+        output = subprocess.check_output("ping -{} 1 {}".format( 'c', sHost), shell=True)
         #print(output)
 
     except Exception, e:
