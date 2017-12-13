@@ -8,6 +8,4 @@ def postSlack(message):
     r = requests.post(url, data=json.dumps(payload))
     print(r.text)
 if __name__ == "__main__":
-    postSlack( '<!here> ' + host + ' is down!!')
-
-    
+    postSlack( '<!here> ' + host + ' is down!!')    

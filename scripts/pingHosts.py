@@ -37,6 +37,3 @@ def startPinging():
 
 if __name__ == "__main__":
     startPinging()
-
-    
-
