@@ -7,8 +7,7 @@ def postSlack(message):
     url = 'https://hooks.slack.com/services/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'
     r = requests.post(url, data=json.dumps(payload))
     print(r.text)
-
 if __name__ == "__main__":
-    postSlack(host + ' is down!!')
+    postSlack( '<!here> ' + host + ' is down!!')
 
     

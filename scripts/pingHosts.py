@@ -31,7 +31,7 @@ def startPinging():
         print('host[s] not responding', errors)
         from slackApiPost import postSlack
         for failedhost in errors:
-            postSlack(failedhost.rstrip() + ' is down!!')
+            postSlack('<!here> ' + failedhost.rstrip() + ' is down!!')
         exit(1)
 
 
