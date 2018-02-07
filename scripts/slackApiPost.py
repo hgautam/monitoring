@@ -1,6 +1,6 @@
 import requests, json, sys
 
-host = sys.argv[1]
+#host = sys.argv[1]
 
 def postSlack(message):
     payload = {'channel': '#scm-outages', 'username': 'monitoringBot', 'text': message, 'icon_emoji': ':cop:'}
