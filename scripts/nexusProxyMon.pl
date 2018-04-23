@@ -11,6 +11,8 @@ foreach my $host (@hostlist) {
     if ($commandStatus != 0) {
         print "$host is dowm\n";
         push(@errorList, $host)
+    } else {
+        print "$host is up\n";
     }
 }
 
