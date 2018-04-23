@@ -1,7 +1,8 @@
 use strict;
 use warnings;
 
-my @hostlist = ("ebaycentral04-2275473.lvs02.dev.ebayc3.com", "ebaycentral03-1843722.lvs02.dev.ebayc3.com");
+my @hostlist = ("ebaycentral04-2275473.lvs02.dev.ebayc3.com", "ebaycentral03-1843722.lvs02.dev.ebayc3.com",
+                "ebaycentral05-2305230.lvs02.dev.ebayc3.com", "ebaycentral06-2362111.lvs02.dev.ebayc3.com");
 
 my $commandStatus = 0;
 my @errorList = ();
