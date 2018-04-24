@@ -14,15 +14,15 @@ my @errorList = ();
 while (my $host = <$fh>) {
   chomp $host;
   print "$host\n";
-  foreach my $host (@hostlist) {
-    $commandStatus = system("wget $host --spider --quiet -T 20");
-    if ($commandStatus != 0) {
+  #foreach my $host (@hostlist) {
+  $commandStatus = system("wget $host --spider --quiet -T 20");
+  if ($commandStatus != 0) {
         print "$host is dowm\n";
         push(@errorList, $host)
     } else {
         print "$host is up\n";
     }
-}
+#}
 }
 
 
