@@ -2,7 +2,7 @@ use strict;
 use warnings;
 
 #my $filename = 'lvsProxyHosts';
-my $filename = $ARGV[1];
+my $filename = $ARGV[0];
 print "file name is $filename\n";
 open(my $fh, '<:encoding(UTF-8)', $filename)
   or die "Could not open file '$filename' $!";
