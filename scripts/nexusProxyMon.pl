@@ -14,7 +14,7 @@ while (my $host = <$fh>) {
   chomp $host;
   $commandStatus = system("wget $host --spider --quiet -T 20");
   if ($commandStatus != 0) {
-        print "$host is dowm\n";
+        print "$host is down\n";
         push(@errorList, $host)
     } else {
         print "$host is up\n";
