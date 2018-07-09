@@ -12,7 +12,10 @@ my @errorList = ();
 
 while (my $host = <$fh>) {
   chomp $host;
-  $commandStatus = system("wget $host --spider --quiet -T 20");
+  #$commandStatus = system("wget $host --spider --quiet -T 20");
+  my $appURL = "http://$host";
+  print "url is $appURL\n";
+  $commandStatus = system("/usr/bin/wget -T 10 -t 3 --spider $appURL > /dev/null 2>&1");
   if ($commandStatus != 0) {
         print "$host is down\n";
         push(@errorList, $host)
