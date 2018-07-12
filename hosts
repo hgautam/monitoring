@@ -1,20 +1,27 @@
+# legacy hosts
 crp-maven03.corp.ebay.com
 crp-maven04.corp.ebay.com
 crp-maven05.corp.ebay.com
 crp-maven07.corp.ebay.com
 crp-maven09.corp.ebay.com
 crp-maven10.corp.ebay.com
+# COE proxies
 pvg-maven05.corp.ebay.com
 pvg-maven06.corp.ebay.com
+# Ebaycentral master in LVS02
 ebaycentral01-2297722.lvs02.dev.ebayc3.com
 ebaycentral02-2307704.lvs02.dev.ebayc3.com
 ebaycentral03-2307706.lvs02.dev.ebayc3.com
+# LVS02 caching proxies
 ebaycentral03-1843722.lvs02.dev.ebayc3.com
 ebaycentral04-2275473.lvs02.dev.ebayc3.com
 ebaycentral06-2362111.lvs02.dev.ebayc3.com
+# TLV provies
 tlv-wacas-001.corp.ebay.com
 tlv-wacas-002.corp.ebay.com
+# Nxraptor master
 nxraptor-01-1722072.slc07.dev.ebayc3.com
 nxraptor-02-1727157.slc07.dev.ebayc3.com
+# SLC caching proxies
 ebaycentral02-1671872.slc07.dev.ebayc3.com
 ebaycentral01-1671312.slc07.dev.ebayc3.com
