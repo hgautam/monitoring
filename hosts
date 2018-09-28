@@ -1,8 +1,12 @@
 # legacy hosts
+#repository.corp.ebay.com
 crp-maven03.corp.ebay.com
 crp-maven04.corp.ebay.com
+#nxrepository.corp.ebay.com
 crp-maven05.corp.ebay.com
+#nxraptor corp
 crp-maven07.corp.ebay.com
+#ebaycentral corp
 crp-maven09.corp.ebay.com
 crp-maven10.corp.ebay.com
 # COE proxies
