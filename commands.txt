@@ -1,0 +1,6 @@
+command to restart traffice server
+ts start
+command to stop
+ts stop
+command to reload config
+tsctl
