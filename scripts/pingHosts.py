@@ -18,15 +18,19 @@ def startPinging():
     errors = []
     f = open('hosts', 'rU')
     for host in f:
-        # skip the comments
-        if not host.startswith("#"):
-            result = pingOk(host.rstrip())
-            #print(result)
-            if result:
-                print('Success')
-            else:
-                errors.append(host)
-                print('Failure')
+        # skip empty lines
+        if not host.strip():
+            continue
+        else:
+            # skip the comments
+            if not host.startswith("#"):
+                result = pingOk(host.rstrip())
+                #print(result)
+                if result:
+                    print('Success')
+                else:
+                    errors.append(host)
+                    print('Failure')
     f.close()
 
     if len(errors) > 0:
