@@ -13,11 +13,13 @@ crp-maven10.corp.ebay.com
 pvg-maven05.corp.ebay.com
 pvg-maven06.corp.ebay.com
 # Ebaycentral master in LVS02
+#active
 ebaycentral01-2297722.lvs02.dev.ebayc3.com
-ebaycentral02-2307704.lvs02.dev.ebayc3.com
-ebaycentral03-2307706.lvs02.dev.ebayc3.com
 ebaycentral06-2596409.lvs02.dev.ebayc3.com
 ebaycentral07-2762269.lvs02.dev.ebayc3.com
+#ready to go at any time
+ebaycentral02-2307704.lvs02.dev.ebayc3.com
+ebaycentral03-2307706.lvs02.dev.ebayc3.com
 # LVS02 caching proxies
 ebaycentral03-1843722.lvs02.dev.ebayc3.com
 ebaycentral04-2275473.lvs02.dev.ebayc3.com
